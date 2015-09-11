@@ -8,6 +8,7 @@ find_package(catkin REQUIRED
     urdf
     tf_conversions
     youbot_arm_kinematics
+    roscpp
 )
 
 catkin_package()
