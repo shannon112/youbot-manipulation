@@ -4,6 +4,8 @@ project(youbot_arm_kinematics)
 find_package(catkin REQUIRED)
 find_package(orocos_kdl REQUIRED)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++0x")
+
 catkin_package(
   INCLUDE_DIRS common/include
   LIBRARIES youbot_arm_kinematics

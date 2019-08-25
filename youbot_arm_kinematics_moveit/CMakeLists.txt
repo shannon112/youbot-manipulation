@@ -11,6 +11,8 @@ find_package(catkin REQUIRED
     roscpp
 )
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++0x")
+
 catkin_package()
 
 include_directories(
